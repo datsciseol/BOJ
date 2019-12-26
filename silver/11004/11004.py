@@ -1,0 +1,5 @@
+elem, num = map(int, input().split())
+result_list = map(int, input().split())
+result_list = list(result_list)
+result_list.sort()
+print(result_list[num - 1])
